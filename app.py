@@ -4,6 +4,7 @@ import os
 from PIL import Image
 import pathlib
 import base64
+import webbrowser
 
 
 st.set_page_config(page_title="AI & ML Playground", page_icon="images/playground_favicon.png", layout="wide")
