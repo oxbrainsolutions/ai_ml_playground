@@ -798,15 +798,11 @@ with col2:
 
 col1, col2, col3, col4, col5, col6, col7 = st.columns([1, 0.8, 0.8, 0.8, 0.8, 0.8, 1])
 
-cwd = os.getcwd()  # Get the current working directory (cwd)
-files = os.listdir(cwd)  # Get all the files in that directory
-st.write("Files in %r: %s" % (cwd, files))
-
 
 card(
 title="Hello World!",
 text="Some description",
-image=".images/facial_detection_transformation.png",
+image="./images/facial_detection_transformation.png",
 url="https://www.google.com",
 )
 
