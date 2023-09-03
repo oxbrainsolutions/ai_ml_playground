@@ -838,7 +838,7 @@ col_styles = """
         </style>
         """
 
-        st.markdown(col_styles, unsafe_allow_html=True)
+st.markdown(col_styles, unsafe_allow_html=True)
 
 
 
