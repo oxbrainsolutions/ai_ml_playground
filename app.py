@@ -810,7 +810,7 @@ st.write(my_file)
 card(
 title="Hello World!",
 text="Some description",
-image="./images/facial_detection_transformation.png",
+image="/mount/src/ai_ml_playground/facial_detection_transformation.png",
 url="https://www.google.com",
 )
 
