@@ -1,4 +1,5 @@
 import streamlit as st
+from streamlit_card import card
 import pathlib
 import base64
 
@@ -790,6 +791,10 @@ with col2:
   '''
   subheader_text_field2 = st.empty()
   subheader_text_field2.markdown(information_media_query + information_text1, unsafe_allow_html=True)
+
+col1, col2, col3 = st.columns([1, 0.8, 0.8, 0.8, 0.8, 0.8, 1])
+with col2:
+    card(title="", text="", image="images/facial_detection_transformation.png", url="https://www.google.com")
 
 
 footer = """
