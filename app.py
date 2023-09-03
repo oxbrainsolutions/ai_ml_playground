@@ -796,7 +796,7 @@ with col2:
   st.markdown(information_media_query + information_text1, unsafe_allow_html=True)
 
   information_text2 = '''
-    <p class="information_text" style="margin-top: 2em; margin-bottom: 2em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">To begin, simply select from one of the options below.</span></p>
+    <p class="information_text" style="margin-top: 2em; margin-bottom: 4em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">To begin, simply select from one of the options below.</span></p>
   '''
   st.markdown(information_media_query + information_text2, unsafe_allow_html=True)
 
@@ -813,7 +813,7 @@ with col6:
     st.image("images/virtual_assistant.png", use_column_width=True)
 
 
-card(title="Hello World!", text="Some description", image="images/virtual_assistant.png", url="https://www.google.com")
+#card(title="Hello World!", text="Some description", image="images/virtual_assistant.png", url="https://www.google.com")
 
 
 footer = """
