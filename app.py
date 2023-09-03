@@ -803,8 +803,9 @@ def file_selector(folder_path='.'):
     selected_filename = st.selectbox('Select a file', filenames)
     return os.path.join(folder_path, selected_filename)
 
-filename = file_selector()
-st.write('You selected `%s`' % filename)
+path = os.path.dirname(__file__)
+my_file = path+'/facial_detection_transformation.png'
+st.write(path)
 
 card(
 title="Hello World!",
