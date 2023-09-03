@@ -674,6 +674,10 @@ line_media_query2 = '''
     </style>
 '''
 
+def img_to_bytes(img_path):
+    img_bytes = pathlib.Path(img_path).read_bytes()
+    encoded = base64.b64encode(img_bytes).decode()
+    return encoded
 
 header = """
     <style>
