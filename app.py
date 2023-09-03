@@ -1,5 +1,6 @@
 import streamlit as st
 from streamlit_card import card
+from PIL import Image
 import pathlib
 import base64
 
@@ -797,7 +798,7 @@ with col2:
     card(
     title="Hello World!",
     text="Some description",
-    image="images/playground_favicon.png",
+    image=Image.open("images/playground_favicon.png"),
     url="https://www.google.com",
 )
 
