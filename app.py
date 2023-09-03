@@ -797,10 +797,6 @@ with col2:
   subheader_text_field2.markdown(information_media_query + information_text1, unsafe_allow_html=True)
 
 col1, col2, col3, col4, col5, col6, col7 = st.columns([1, 0.8, 0.8, 0.8, 0.8, 0.8, 1])
-
-identifying and manipulating facial features in images or videos using advanced machine learning and artificial intelligence algorithms.
-
-
 with col2:
     st.image("images/facial_detection_transformation.png", use_column_width=True)
     information_text1 = '''<p class="information_text" style="margin-top: 0em; margin-bottom: 0em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">Identifying and manipulating facial features in images based on computer vision technology and ML algorithms.</span></p>'''
