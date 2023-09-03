@@ -819,7 +819,7 @@ with col6:
     st.markdown(information_media_query + information_text1, unsafe_allow_html=True)
 
 
-#card(title="Hello World!", text="Some description", image="ai_ml_playground/images/facial_detection_transformation.png", url="https://www.google.com")
+card(title="Hello World!", text="Some description", image="images/virtual_assistant.png", url="https://www.google.com")
 
 
 footer = """
