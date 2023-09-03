@@ -805,6 +805,7 @@ with col2:
 
 from streamlit.components.v1 import html
 
+
 def open_page(url):
     open_script= """
         <script type="text/javascript">
@@ -812,6 +813,8 @@ def open_page(url):
         </script>
     """ % (url)
     html(open_script)
+
+st.button('Open link', on_click=open_page, args=('https://streamlit.io',))
 
 
 col1, col2, col3, col4, col5, col6, col7 = st.columns([1, 0.8, 0.8, 0.8, 0.8, 0.8, 1])
