@@ -804,61 +804,60 @@ with col2:
 
 
 col_styles = """
-        <style>
-            .col_images {
-                display: flex;
-                align-items: center;
-                vertical-align: middle;
-            }
-            .left {
-                width: 16.67%;
-            }
-            .middle1 {
-                width: 13.33%;
-            }
-            .middle2 {
-                width: 13.33%;
-            }
-            .middle3 {
-                width: 13.33%;
-            }
-            .middle4 {
-                width: 13.33%;
-            }
-            .middle5 {
-                width: 13.33%;
-            }
-            .right {
-                width: 16.67%;
-            }
-            .break-line {
-                display: inline;
-                white-space: normal;
-            }
-            .middle1 img {
-            max-width: 100%;
-            display: inline-block;
-            vertical-align: middle;
-            }
-            .middle1 img:hover {
-            filter: brightness(0.6) saturate(1.2) hue-rotate(20deg);
-            }
-            .clear {
-                clear: both;
-            }
-        </style>
-        <div class="col_styles">
-            <div class="middle1">        
-                <a href="https://google.com">
-                    <img src="data:image/png;base64,{}" class="img-fluid" alt="logo1" width="90%">
-                </a>
-            </div>
-            <div class="clear"></div>
-        </div>
+<style>
+    .col_images {{
+        display: flex;
+        align-items: center;
+        vertical-align: middle;
+    }}
+    .left {{
+        width: 16.67%;
+    }}
+    .middle1 {{
+        width: 13.33%;
+    }}
+    .middle2 {{
+        width: 13.33%;
+    }}
+    .middle3 {{
+        width: 13.33%;
+    }}
+    .middle4 {{
+        width: 13.33%;
+    }}
+    .middle5 {{
+        width: 13.33%;
+    }}
+    .right {{
+        width: 16.67%;
+    }}
+    .break-line {{
+        display: inline;
+        white-space: normal;
+    }}
+    .middle1 img {{
+        max-width: 100%;
+        display: inline-block;
+        vertical-align: middle;
+    }}
+    .middle1 img:hover {{
+        filter: brightness(0.6) saturate(1.2) hue-rotate(20deg);
+    }}
+    .clear {{
+        clear: both;
+    }}
+</style>
+<div class="col_styles">
+    <div class="middle1">        
+        <a href="https://google.com">
+            <img src="data:image/png;base64,{}" class="img-fluid" alt="logo1" width="90%">
+        </a>
+    </div>
+    <div class="clear"></div>
+</div>
 """
 
 st.markdown(col_styles.format(img_to_bytes("images/facial_detection_transformation.png")), unsafe_allow_html=True)
-
 
 
 
