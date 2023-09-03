@@ -810,8 +810,11 @@ col_styles = """
         align-items: center;
         justify-content: center;
     }}
-    .middle1, .middle2, .middle3, .middle4, .middle5 {{
+    .left, .right {{
         flex-grow: 1;
+    }}
+    .middle1, .middle2, .middle3, .middle4, .middle5 {{
+        flex-grow: 2;
         text-align: center;
     }}
     .middle1 a, .middle2 a, .middle3 a, .middle4 a, .middle5 a {{
