@@ -803,27 +803,46 @@ with col2:
   st.markdown(information_media_query + information_text2, unsafe_allow_html=True)
 
 
-from streamlit.components.v1 import html
+col_styles = """
+        <style>
+            .col_images {
+                display: flex;
+                align-items: center;
+                vertical-align: middle;
+            }
+            .left {
+                width: 16.67%;
+            }
+            .middle1 {
+                width: 13.33%;
+            }
+            .middle2 {
+                width: 13.33%;
+            }
+            .middle3 {
+                width: 13.33%;
+            }
+            .middle4 {
+                width: 13.33%;
+            }
+            .middle5 {
+                width: 13.33%;
+            }
+            .right {
+                width: 16.67%;
+            }
+            .break-line {
+                display: inline;
+                white-space: normal;
+            }
+        </style>
+        """
+
+        st.markdown(col_styles, unsafe_allow_html=True)
 
 
-def redirect_button(url: str, text: str= None, color="#FD504D"):
-    st.markdown(
-    f"""
-    <a href="{url}" target="_self">
-        <div style="
-            display: inline-block;
-            padding: 0.5em 1em;
-            color: #FFFFFF;
-            background-color: {color};
-            border-radius: 3px;
-            text-decoration: none;">
-            {text}
-        </div>
-    </a>
-    """,
-    unsafe_allow_html=True
-    )
-redirect_button("http://stackoverflow.com","this leads to SO")
+
+
 
 
 col1, col2, col3, col4, col5, col6, col7 = st.columns([1, 0.8, 0.8, 0.8, 0.8, 0.8, 1])
