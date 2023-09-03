@@ -849,16 +849,13 @@ col_styles = """
         </style>
         <div class="col_styles">
             <div class="middle1">        
-            <a href="https://google.com">
-                <img src="data:image/png;base64,{}" class="img-fluid" alt="logo1" width="90%">
-            </a>
+                <a href="https://google.com">
+                    <img src="data:image/png;base64,{}" class="img-fluid" alt="logo1" width="90%">
+                </a>
             </div>
+            <div class="clear"></div>
         </div>
-        <div class="clear"></div>
-    </div>
-
-        
-        """
+"""
 
 st.markdown(col_styles.format(img_to_bytes("images/facial_detection_transformation.png")), unsafe_allow_html=True)
 
