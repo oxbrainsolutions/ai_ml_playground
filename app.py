@@ -798,22 +798,9 @@ col1, col2, col3, col4, col5, col6, col7 = st.columns([1, 0.8, 0.8, 0.8, 0.8, 0.
 card(
 title="Hello World!",
 text="Some description",
-image="https://mrmd-classifier-playground.streamlit.app",
+image="images/facial_detection_transformation.png",
 url="https://www.google.com",
 )
-
-from st_clickable_images import clickable_images
-
-clicked = clickable_images(
-    [
-        "images/facial_detection_transformation.png",
-    ],
-    titles=[f"Image #{str(i)}" for i in range(5)],
-    div_style={"display": "flex", "justify-content": "center", "flex-wrap": "wrap"},
-    img_style={"margin": "5px", "height": "200px"},
-)
-
-st.markdown(f"Image #{clicked} clicked" if clicked > -1 else "No image clicked")
 
 
 footer = """
