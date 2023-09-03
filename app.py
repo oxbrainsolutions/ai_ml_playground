@@ -805,6 +805,9 @@ def file_selector(folder_path='.'):
 
 with col2:
     st.image("images/facial_detection_transformation.png", use_column_width=True)
+with col3:
+    st.image("images/facial_detection_transformation.png", use_column_width=True)
+
 
 card(
 title="Hello World!",
