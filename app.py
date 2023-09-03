@@ -834,34 +834,34 @@ col_styles = """
 <div class="col_styles">
     <div class="middle1">        
         <a href="https://google.com">
-            <img src="data:image/png;base64,{}" class="img-fluid" alt="logo1" width="90%">
+            <img src="data:image/png;base64,{}" class="img-fluid" alt="logo1" width="100%">
         </a>
     </div>
     <div class="middle2">        
         <a href="https://google.com">
-            <img src="data:image/png;base64,{}" class="img-fluid" alt="logo1" width="90%">
+            <img src="data:image/png;base64,{}" class="img-fluid" alt="logo1" width="100%">
         </a>
     </div>
     <div class="middle3">        
         <a href="https://google.com">
-            <img src="data:image/png;base64,{}" class="img-fluid" alt="logo1" width="90%">
+            <img src="data:image/png;base64,{}" class="img-fluid" alt="logo1" width="100%">
         </a>
     </div>
     <div class="middle4">        
         <a href="https://google.com">
-            <img src="data:image/png;base64,{}" class="img-fluid" alt="logo1" width="90%">
+            <img src="data:image/png;base64,{}" class="img-fluid" alt="logo1" width="100%">
         </a>
     </div>
     <div class="middle5">        
         <a href="https://google.com">
-            <img src="data:image/png;base64,{}" class="img-fluid" alt="logo1" width="90%">
+            <img src="data:image/png;base64,{}" class="img-fluid" alt="logo1" width="100%">
         </a>
     </div>
     <div class="clear"></div>
 </div>
 """
 
-st.markdown(col_styles.format(img_to_bytes("images/facial_detection_transformation.png"), img_to_bytes("images/facial_detection_transformation.png"), img_to_bytes("images/facial_detection_transformation.png"), img_to_bytes("images/facial_detection_transformation.png"), img_to_bytes("images/facial_detection_transformation.png")), unsafe_allow_html=True)
+st.markdown(col_styles.format(img_to_bytes("images/facial_detection_transformation.png"), img_to_bytes("images/image_object_detection_recognition.png"), img_to_bytes("images/supervised_ml_classification.png"), img_to_bytes("images/image_synthesis.png"), img_to_bytes("images/virtual_assistant.png")), unsafe_allow_html=True)
 
 
 col1, col2, col3, col4, col5, col6, col7 = st.columns([1, 0.8, 0.8, 0.8, 0.8, 0.8, 1])
