@@ -803,8 +803,8 @@ def file_selector(folder_path='.'):
     selected_filename = st.selectbox('Select a file', filenames)
     return os.path.join(folder_path, selected_filename)
 
-
-st.image("images/facial_detection_transformation.png")
+with col2:
+    st.image("images/facial_detection_transformation.png", use_column_width=True)
 
 card(
 title="Hello World!",
