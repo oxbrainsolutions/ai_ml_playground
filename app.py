@@ -595,7 +595,7 @@ st.markdown("""
         width: 100% !important;
         height: 0.8em !important;
         margin-top: 0em;
-        border-width: 0.15em; !important;
+        border-width: 0.2em; !important;
         }
     }
     /* The input itself */
