@@ -799,23 +799,23 @@ with col2:
 col1, col2, col3, col4, col5, col6, col7 = st.columns([1, 0.8, 0.8, 0.8, 0.8, 0.8, 1])
 with col2:
     st.image("images/facial_detection_transformation.png", use_column_width=True)
-    information_text1 = '''<p class="information_text" style="margin-top: 0em; margin-bottom: 0em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">Identifying and manipulating facial features in images based on computer vision technology and ML algorithms.</span></p>'''
+    information_text1 = '''<p class="information_text" style="margin-top: 0em; margin-bottom: 4em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">Identifying and manipulating facial features in images based on computer vision technology and ML algorithms.</span></p>'''
     st.markdown(information_media_query + information_text1, unsafe_allow_html=True)
 with col3:
     st.image("images/image_object_detection_recognition.png", use_column_width=True)
-    information_text1 = '''<p class="information_text" style="margin-top: 0em; margin-bottom: 0em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">Locating and identifying objects within images based on computer vision technology and ML algorithms.</span></p>'''
+    information_text1 = '''<p class="information_text" style="margin-top: 0em; margin-bottom: 4em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">Locating and identifying objects within images based on computer vision technology and ML algorithms.</span></p>'''
     st.markdown(information_media_query + information_text1, unsafe_allow_html=True)
 with col4:
     st.image("images/supervised_ml_classification.png", use_column_width=True)
-    information_text1 = '''<p class="information_text" style="margin-top: 0em; margin-bottom: 0em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">Training a ML algorithm to recognize patterns in labelled data, enabling it to predict the class of new unlabelled data.</span></p>'''
+    information_text1 = '''<p class="information_text" style="margin-top: 0em; margin-bottom: 4em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">Training a ML algorithm to recognize patterns in labelled data, enabling it to predict the class of new unlabelled data.</span></p>'''
     st.markdown(information_media_query + information_text1, unsafe_allow_html=True)
 with col5:
     st.image("images/image_synthesis.png", use_column_width=True)
-    information_text1 = '''<p class="information_text" style="margin-top: 0em; margin-bottom: 0em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">Creating realistic and high-quality images that do not exist in the real world based on ML algorithms.</span></p>'''
+    information_text1 = '''<p class="information_text" style="margin-top: 0em; margin-bottom: 4em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">Creating realistic and high-quality images that do not exist in the real world based on ML algorithms.</span></p>'''
     st.markdown(information_media_query + information_text1, unsafe_allow_html=True)
 with col6:
     st.image("images/virtual_assistant.png", use_column_width=True)
-    information_text1 = '''<p class="information_text" style="margin-top: 0em; margin-bottom: 0em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">Simulating human-like conversations and performing tasks or providing information in response to user inputs based on NLP algorithms.</span></p>'''
+    information_text1 = '''<p class="information_text" style="margin-top: 0em; margin-bottom: 4em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">Simulating human-like conversations and performing tasks or providing information in response to user inputs based on NLP algorithms.</span></p>'''
     st.markdown(information_media_query + information_text1, unsafe_allow_html=True)
 
 
