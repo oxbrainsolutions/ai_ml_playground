@@ -843,6 +843,38 @@ col_styles = """
     .middle1 img:hover {{
         filter: brightness(0.6) saturate(1.2) hue-rotate(20deg);
     }}
+    .middle2 img {{
+        max-width: 100%;
+        display: inline-block;
+        vertical-align: middle;
+    }}
+    .middle2 img:hover {{
+        filter: brightness(0.6) saturate(1.2) hue-rotate(20deg);
+    }}
+    .middle3 img {{
+        max-width: 100%;
+        display: inline-block;
+        vertical-align: middle;
+    }}
+    .middle3 img:hover {{
+        filter: brightness(0.6) saturate(1.2) hue-rotate(20deg);
+    }}
+    .middle4 img {{
+        max-width: 100%;
+        display: inline-block;
+        vertical-align: middle;
+    }}
+    .middle4 img:hover {{
+        filter: brightness(0.6) saturate(1.2) hue-rotate(20deg);
+    }}
+    .middle5 img {{
+        max-width: 100%;
+        display: inline-block;
+        vertical-align: middle;
+    }}
+    .middle5 img:hover {{
+        filter: brightness(0.6) saturate(1.2) hue-rotate(20deg);
+    }}
     .clear {{
         clear: both;
     }}
@@ -853,11 +885,31 @@ col_styles = """
             <img src="data:image/png;base64,{}" class="img-fluid" alt="logo1" width="90%">
         </a>
     </div>
+    <div class="middle2">        
+        <a href="https://google.com">
+            <img src="data:image/png;base64,{}" class="img-fluid" alt="logo1" width="90%">
+        </a>
+    </div>
+    <div class="middle3">        
+        <a href="https://google.com">
+            <img src="data:image/png;base64,{}" class="img-fluid" alt="logo1" width="90%">
+        </a>
+    </div>
+    <div class="middle4">        
+        <a href="https://google.com">
+            <img src="data:image/png;base64,{}" class="img-fluid" alt="logo1" width="90%">
+        </a>
+    </div>
+    <div class="middle5">        
+        <a href="https://google.com">
+            <img src="data:image/png;base64,{}" class="img-fluid" alt="logo1" width="90%">
+        </a>
+    </div>
     <div class="clear"></div>
 </div>
 """
 
-st.markdown(col_styles.format(img_to_bytes("images/facial_detection_transformation.png")), unsafe_allow_html=True)
+st.markdown(col_styles.format(img_to_bytes("images/facial_detection_transformation.png"), img_to_bytes("images/facial_detection_transformation.png"), img_to_bytes("images/facial_detection_transformation.png"), img_to_bytes("images/facial_detection_transformation.png"), img_to_bytes("images/facial_detection_transformation.png")), unsafe_allow_html=True)
 
 
 
