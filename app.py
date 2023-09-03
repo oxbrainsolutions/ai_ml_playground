@@ -766,21 +766,6 @@ with open(image_file_path, "rb") as image_file:
 st.markdown(header.format(encoded_string, img_to_bytes("images/playground_logo.png")),
             unsafe_allow_html=True)
 
-with st.sidebar:
-    subheader_text1 = '''<p class="subheader_text" style="margin-top: 0em; margin-bottom: 0em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">Create a Dataset</span></p>'''
-    subheader_media_query = '''
-    <style>
-    @media (max-width: 1024px) {
-        p.subheader_text {
-          font-size: 4em;
-        }
-    }
-    </style>
-    '''
-    st.markdown(subheader_media_query + subheader_text1, unsafe_allow_html=True)
-    st.markdown(line_media_query1 + line1, unsafe_allow_html=True)
-
-
 spinner = st.empty()
 
 
