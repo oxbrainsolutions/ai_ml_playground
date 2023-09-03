@@ -805,25 +805,25 @@ with col2:
 
 col_styles = """
 <style>
-    .col_images {
+    .col_images {{
         display: flex;
         align-items: center;
         justify-content: space-between;
-    }
-    .middle1, .middle2, .middle3, .middle4, .middle5 {
+    }}
+    .middle1, .middle2, .middle3, .middle4, .middle5 {{
         width: 20%;
-    }
-    .middle1 img, .middle2 img, .middle3 img, .middle4 img, .middle5 img {
+    }}
+    .middle1 img, .middle2 img, .middle3 img, .middle4 img, .middle5 img {{
         max-width: 100%;
         display: inline-block;
         vertical-align: middle;
-    }
-    .middle1 img:hover, .middle2 img:hover, .middle3 img:hover, .middle4 img:hover, .middle5 img:hover {
+    }}
+    .middle1 img:hover, .middle2 img:hover, .middle3 img:hover, .middle4 img:hover, .middle5 img:hover {{
         filter: brightness(0.6) saturate(1.2) hue-rotate(20deg);
-    }
-    .clear {
+    }}
+    .clear {{
         clear: both;
-    }
+    }}
 </style>
 <div class="col_styles">
     <div class="middle1">        
