@@ -1,4 +1,4 @@
-import streamlit as st
+dimport streamlit as st
 from streamlit_card import card
 import os
 from PIL import Image
@@ -803,14 +803,11 @@ def file_selector(folder_path='.'):
     selected_filename = st.selectbox('Select a file', filenames)
     return os.path.join(folder_path, selected_filename)
 
-path = os.path.dirname(__file__)
-my_file = path+'/facial_detection_transformation.png'
-st.write(my_file)
 
 card(
 title="Hello World!",
 text="Some description",
-image="/mount/src/ai_ml_playground/facial_detection_transformation.png",
+image="ai_ml_playground/images/facial_detection_transformation.png",
 url="https://www.google.com",
 )
 
