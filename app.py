@@ -834,7 +834,7 @@ col_styles = """
 <div class="col_styles">
     <div class="middle1">        
         <a href="https://google.com">
-            <img src="data:image/png;base64,{}" class="img-fluid" alt="logo1" width="100%">
+            <img src="data:image/png;base64,{}" class="img-fluid" alt="logo1" width="95%">
         </a>
     </div>
     <div class="middle2">        
