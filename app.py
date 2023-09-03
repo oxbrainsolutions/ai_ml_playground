@@ -10,6 +10,8 @@ st.set_page_config(page_title="AI & ML Playground", page_icon="images/playground
 
 st.elements.utils._shown_default_value_warning=True
 
+dirpath = os.path.dirname(__file__)
+
 marker_spinner_css = """
 <style>
     #spinner-container-marker {
