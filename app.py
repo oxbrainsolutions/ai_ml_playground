@@ -806,15 +806,24 @@ with col2:
 from streamlit.components.v1 import html
 
 
-def open_page(url):
-    open_script= """
-        <script type="text/javascript">
-            window.open('%s', '_blank').focus();
-        </script>
-    """ % (url)
-    html(open_script)
-
-st.button('Open link', on_click=open_page, args=('https://streamlit.io',))
+def redirect_button(url: str, text: str= None, color="#FD504D"):
+    st.markdown(
+    f"""
+    <a href="{url}" target="_self">
+        <div style="
+            display: inline-block;
+            padding: 0.5em 1em;
+            color: #FFFFFF;
+            background-color: {color};
+            border-radius: 3px;
+            text-decoration: none;">
+            {text}
+        </div>
+    </a>
+    """,
+    unsafe_allow_html=True
+    )
+redirect_button("http://stackoverflow.com","this leads to SO")
 
 
 col1, col2, col3, col4, col5, col6, col7 = st.columns([1, 0.8, 0.8, 0.8, 0.8, 0.8, 1])
