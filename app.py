@@ -791,7 +791,7 @@ with col2:
   '''
   st.markdown(header_media_query + header_text, unsafe_allow_html=True)
   information_text1 = '''
-    <p class="information_text" style="margin-top: 2em; margin-bottom: 6em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">The AI & ML playground is an interactive educational tool that provides a hands-on experience with AI technology. A playground is a safe and secure environment where you can experiment and learn without the risk of damaging your production systems. The purpose of this playground is to offer nontechnical individuals the opportunity to engage with AI technology, experiment with different algorithms and gain a deeper understanding of how AI works. To begin, simply select from one of the options below.</span></p>
+    <p class="information_text" style="margin-top: 2em; margin-bottom: 6em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">The AI & ML playground is an interactive educational tool that provides a hands-on experience with AI technology. The purpose of this playground is to offer nontechnical individuals the opportunity to engage with AI technology, experiment with different algorithms and gain a deeper understanding of how AI works. To begin, simply select from one of the options below.</span></p>
   '''
   subheader_text_field2 = st.empty()
   subheader_text_field2.markdown(information_media_query + information_text1, unsafe_allow_html=True)
@@ -799,24 +799,14 @@ with col2:
 col1, col2, col3, col4, col5, col6, col7 = st.columns([1, 0.8, 0.8, 0.8, 0.8, 0.8, 1])
 with col2:
     st.image("images/facial_detection_transformation.png", use_column_width=True)
-    information_text1 = '''<p class="information_text" style="margin-top: 0em; margin-bottom: 4em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">Identifying and manipulating facial features in images based on computer vision technology and ML algorithms.</span></p>'''
-    st.markdown(information_media_query + information_text1, unsafe_allow_html=True)
 with col3:
     st.image("images/image_object_detection_recognition.png", use_column_width=True)
-    information_text1 = '''<p class="information_text" style="margin-top: 0em; margin-bottom: 4em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">Locating and identifying objects within images based on computer vision technology and ML algorithms.</span></p>'''
-    st.markdown(information_media_query + information_text1, unsafe_allow_html=True)
 with col4:
     st.image("images/supervised_ml_classification.png", use_column_width=True)
-    information_text1 = '''<p class="information_text" style="margin-top: 0em; margin-bottom: 4em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">Training a ML algorithm to recognize patterns in labelled data, enabling it to predict the class of new unlabelled data.</span></p>'''
-    st.markdown(information_media_query + information_text1, unsafe_allow_html=True)
 with col5:
     st.image("images/image_synthesis.png", use_column_width=True)
-    information_text1 = '''<p class="information_text" style="margin-top: 0em; margin-bottom: 4em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">Creating realistic and high-quality images that do not exist in the real world based on ML algorithms.</span></p>'''
-    st.markdown(information_media_query + information_text1, unsafe_allow_html=True)
 with col6:
     st.image("images/virtual_assistant.png", use_column_width=True)
-    information_text1 = '''<p class="information_text" style="margin-top: 0em; margin-bottom: 4em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">Simulating human-like conversations and performing tasks or providing information in response to user inputs based on NLP algorithms.</span></p>'''
-    st.markdown(information_media_query + information_text1, unsafe_allow_html=True)
 
 
 card(title="Hello World!", text="Some description", image="images/virtual_assistant.png", url="https://www.google.com")
