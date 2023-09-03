@@ -806,7 +806,7 @@ st.write("Files in %r: %s" % (cwd, files))
 card(
 title="Hello World!",
 text="Some description",
-image="/mount/src/ai_ml_playground/images/facial_detection_transformation.png",
+image=".images/facial_detection_transformation.png",
 url="https://www.google.com",
 )
 
