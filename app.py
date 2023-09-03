@@ -819,7 +819,7 @@ with col5:
     st.markdown(information_media_query + information_text1, unsafe_allow_html=True)
 with col6:
     st.image("images/virtual_assistant.png", use_column_width=True)
-    information_text1 = '''<p class="information_text" style="margin-top: 0em; margin-bottom: 0em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">Simulating human-like conversations and performing tasks or providing information in response to user inputs based on natural language processing algorithms.</span></p>'''
+    information_text1 = '''<p class="information_text" style="margin-top: 0em; margin-bottom: 0em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">Simulating human-like conversations and performing tasks or providing information in response to user inputs based on NLP algorithms.</span></p>'''
     st.markdown(information_media_query + information_text1, unsafe_allow_html=True)
 
 
