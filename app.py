@@ -686,7 +686,7 @@ def img_to_bytes(img_path):
     return encoded
 
 def navigate1():
-    webbrowser.open_new_tab('http://www.python.org')
+    webbrowser.open_new_tab('https://www.google.com"')
 
 
 header = """
