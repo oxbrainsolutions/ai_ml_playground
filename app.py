@@ -797,6 +797,12 @@ with col2:
   subheader_text_field2.markdown(information_media_query + information_text1, unsafe_allow_html=True)
 
 col1, col2, col3, col4, col5, col6, col7 = st.columns([1, 0.8, 0.8, 0.8, 0.8, 0.8, 1])
+
+cwd = os.getcwd()  # Get the current working directory (cwd)
+files = os.listdir(cwd)  # Get all the files in that directory
+st.write("Files in %r: %s" % (cwd, files))
+
+
 card(
 title="Hello World!",
 text="Some description",
