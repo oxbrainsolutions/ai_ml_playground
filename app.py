@@ -794,7 +794,12 @@ with col2:
 
 col1, col2, col3, col4, col5, col6, col7 = st.columns([1, 0.8, 0.8, 0.8, 0.8, 0.8, 1])
 with col2:
-    card(title=" ", text=" ", image=img_to_bytes("images/facial_detection_transformation.png"), url="https://www.google.com")
+    card(
+    title="Hello World!",
+    text="Some description",
+    image="http://placekitten.com/300/250",
+    url="https://www.google.com",
+)
 
 
 footer = """
