@@ -860,7 +860,7 @@ col_styles = """
         
         """
 
-st.markdown(col_styles.format(img_to_bytes("images/facial_detection_transformation.png.png")), unsafe_allow_html=True)
+st.markdown(col_styles.format(img_to_bytes("images/facial_detection_transformation.png")), unsafe_allow_html=True)
 
 
 
