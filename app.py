@@ -803,26 +803,31 @@ with col2:
 col1, col2, col3, col4, col5, col6, col7 = st.columns([1, 0.8, 0.8, 0.8, 0.8, 0.8, 1])
 with col2:
     st.image("images/facial_detection_transformation.png", use_column_width=True)
+    st.write("")
     st.button("Let's Go", key="button1")
     st.write("")
     st.write("")
 with col3:
     st.image("images/image_object_detection_recognition.png", use_column_width=True)
+    st.write("")
     st.button("Let's Go", key="button2")
     st.write("")
     st.write("")
 with col4:
     st.image("images/supervised_ml_classification.png", use_column_width=True)
+    st.write("")
     st.button("Let's Go", key="button3")
     st.write("")
     st.write("")
 with col5:
     st.image("images/image_synthesis.png", use_column_width=True)
+    st.write("")
     st.button("Let's Go", key="button4")
     st.write("")
     st.write("")
 with col6:
     st.image("images/virtual_assistant.png", use_column_width=True)
+    st.write("")
     st.button("Let's Go", key="button5")
 
 
