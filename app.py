@@ -810,7 +810,7 @@ with col2:
     st.image("images/facial_detection_transformation.png", use_column_width=True)
     st.write("")
     if st.button("Select", key="button1"):
-        navigate1()
+        st.write('<script>window.open("https://www.google.com")</script>', unsafe_allow_html=True)
     st.write("")
     st.write("")
 with col3:
