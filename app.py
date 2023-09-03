@@ -806,7 +806,7 @@ def file_selector(folder_path='.'):
 with col2:
     st.image("images/facial_detection_transformation.png", use_column_width=True)
 with col3:
-    st.image("images/image_oject_detection_recognition.png", use_column_width=True)
+    st.image("images/image_object_detection_recognition.png", use_column_width=True)
 with col4:
     st.image("images/supervised_ml_classification.png", use_column_width=True)
 with col5:
