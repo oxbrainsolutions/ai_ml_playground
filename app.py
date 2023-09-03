@@ -798,7 +798,7 @@ col1, col2, col3, col4, col5, col6, col7 = st.columns([1, 0.8, 0.8, 0.8, 0.8, 0.
 card(
 title="Hello World!",
 text="Some description",
-image=os.path.abspath("images/playground_favicon.png"),
+image="https://mrmd-classifier-playground.streamlit.app",
 url="https://www.google.com",
 )
 
