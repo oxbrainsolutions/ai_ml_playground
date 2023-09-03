@@ -821,7 +821,7 @@ col1, col2, col3, col4, col5, col6, col7 = st.columns([1, 0.8, 0.8, 0.8, 0.8, 0.
 with col2:
     st.image("images/facial_detection_transformation.png", use_column_width=True)
     st.write("")
-    st.button("Select", key="button1", on_click=open_page, args=('https://streamlit.io',)):
+    st.button("Select", key="button1", on_click=open_page, args=('https://streamlit.io'))
 
 
        
