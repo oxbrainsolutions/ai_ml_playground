@@ -1,10 +1,7 @@
 import streamlit as st
 from streamlit_card import card
-import os
-from PIL import Image
 import pathlib
 import base64
-import webbrowser
 
 
 st.set_page_config(page_title="AI & ML Playground", page_icon="images/playground_favicon.png", layout="wide")
@@ -862,45 +859,6 @@ col_styles = """
 """
 
 st.markdown(col_styles.format(img_to_bytes("images/facial_detection_transformation.png"), img_to_bytes("images/image_object_detection_recognition.png"), img_to_bytes("images/supervised_ml_classification.png"), img_to_bytes("images/image_synthesis.png"), img_to_bytes("images/virtual_assistant.png")), unsafe_allow_html=True)
-
-
-col1, col2, col3, col4, col5, col6, col7 = st.columns([1, 0.8, 0.8, 0.8, 0.8, 0.8, 1])
-with col2:
-    st.image("images/facial_detection_transformation.png", use_column_width=True)
-    st.write("")
-    if st.button("Select", key="button1"):
-        open_page('https://streamlit.io')
-
-
-       
-    st.write("")
-    st.write("")
-with col3:
-    st.image("images/image_object_detection_recognition.png", use_column_width=True)
-    st.write("")
-    st.button("Select", key="button2")
-    st.write("")
-    st.write("")
-with col4:
-    st.image("images/supervised_ml_classification.png", use_column_width=True)
-    st.write("")
-    st.button("Select", key="button3")
-    st.write("")
-    st.write("")
-with col5:
-    st.image("images/image_synthesis.png", use_column_width=True)
-    st.write("")
-    st.button("Select", key="button4")
-    st.write("")
-    st.write("")
-with col6:
-    st.image("images/virtual_assistant.png", use_column_width=True)
-    st.write("")
-    st.button("Select", key="button5")
-
-
-#card(title="Hello World!", text="Some description", image="images/virtual_assistant.png", url="https://www.google.com")
-
 
 footer = """
 <style>
