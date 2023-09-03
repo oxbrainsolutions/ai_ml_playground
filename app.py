@@ -805,7 +805,7 @@ def file_selector(folder_path='.'):
 
 path = os.path.dirname(__file__)
 my_file = path+'/facial_detection_transformation.png'
-st.write(path)
+st.write(my_file)
 
 card(
 title="Hello World!",
