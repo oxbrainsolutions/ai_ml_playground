@@ -797,7 +797,7 @@ with col2:
     card(
     title="Hello World!",
     text="Some description",
-    image="http://placekitten.com/300/250",
+    image="images/playground_favicon.png",
     url="https://www.google.com",
 )
 
