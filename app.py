@@ -685,9 +685,6 @@ def img_to_bytes(img_path):
     encoded = base64.b64encode(img_bytes).decode()
     return encoded
 
-def navigate1():
-    webbrowser.open_new_tab('https://www.google.com"')
-
 
 header = """
     <style>
@@ -821,7 +818,8 @@ col1, col2, col3, col4, col5, col6, col7 = st.columns([1, 0.8, 0.8, 0.8, 0.8, 0.
 with col2:
     st.image("images/facial_detection_transformation.png", use_column_width=True)
     st.write("")
-    st.button("Select", key="button1", on_click=open_page, args=('https://streamlit.io'))
+    if st.button("Select", key="button1"):
+        open_page('https://streamlit.io')
 
 
        
