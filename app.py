@@ -951,10 +951,7 @@ footer = """
 <div class="content-container">
     <div class="footer">
         <div class="left-column-footer">
-            <b><span style="color: #FAFAFA;">Contents &copy; oxbr</span><span style="color: #FCBC24;">AI</span><span style="color: #FAFAFA;">n 2023</span></b>
-        </div>
-        <div class="middle-column-footer">
-            <b>DISCLAIMER: The image synthesis and generation capabilities provided in the playground are facilitated through advanced AI technology developed by OpenAI. This playground may exhibit inherent limitations associated with the accuracy of generated images and is intended for educational purposes only.</b>
+            <b><span style="color: #FAFAFA;">Created by Alex White 2023</span></b>
         </div>
         <div class="clear"></div>
     </div>
