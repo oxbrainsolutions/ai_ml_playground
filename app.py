@@ -805,17 +805,20 @@ with col2:
 
 col_styles = """
 <style>
-    .col_images {{
+    .col_styles {{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
     }}
     .middle1, .middle2, .middle3, .middle4, .middle5 {{
-        width: 20%;
+        flex-grow: 1;
+        text-align: center;
+    }}
+    .middle1 a, .middle2 a, .middle3 a, .middle4 a, .middle5 a {{
+        display: inline-block;
     }}
     .middle1 img, .middle2 img, .middle3 img, .middle4 img, .middle5 img {{
         max-width: 100%;
-        display: inline-block;
         vertical-align: middle;
     }}
     .middle1 img:hover, .middle2 img:hover, .middle3 img:hover, .middle4 img:hover, .middle5 img:hover {{
