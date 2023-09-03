@@ -825,6 +825,14 @@ col_styles = """
     .clear {{
         clear: both;
     }}
+    @media screen and (max-width: 1024px) {{
+    .left, .right {{
+        width: 0%;
+    }}
+    .middle1, .middle2, .middle3, .middle4, .middle5 {{
+        width: 20%;
+        text-align: center;
+    }}
 </style>
 <div class="col_styles">
     <div class="middle1">        
