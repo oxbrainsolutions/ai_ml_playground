@@ -804,6 +804,8 @@ def file_selector(folder_path='.'):
     return os.path.join(folder_path, selected_filename)
 
 
+st.image("images/facial_detection_transformation.png")
+
 card(
 title="Hello World!",
 text="Some description",
