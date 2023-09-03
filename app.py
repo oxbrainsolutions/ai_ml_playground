@@ -811,10 +811,10 @@ col_styles = """
         justify-content: center;
     }}
     .left, .right {{
-        flex-grow: 1;
+        width: 16.67%;
     }}
     .middle1, .middle2, .middle3, .middle4, .middle5 {{
-        flex-grow: 2;
+        width: 13.33%;
         text-align: center;
     }}
     .middle1 a, .middle2 a, .middle3 a, .middle4 a, .middle5 a {{
