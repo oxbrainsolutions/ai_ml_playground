@@ -807,12 +807,20 @@ with col2:
     st.image("images/facial_detection_transformation.png", use_column_width=True)
 with col3:
     st.image("images/image_object_detection_recognition.png", use_column_width=True)
+    information_text1 = '''<p class="information_text" style="margin-top: 0em; margin-bottom: 0em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">Locating and identifying objects within an image based on computer vision technology and ML algorithms.</span></p>'''
+    st.markdown(information_media_query + information_text1, unsafe_allow_html=True)
 with col4:
     st.image("images/supervised_ml_classification.png", use_column_width=True)
+    information_text1 = '''<p class="information_text" style="margin-top: 0em; margin-bottom: 0em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">Training a ML algorithm to recognize patterns in labelled data, enabling it to predict the class of new unlabelled data.</span></p>'''
+    st.markdown(information_media_query + information_text1, unsafe_allow_html=True)
 with col5:
     st.image("images/image_synthesis.png", use_column_width=True)
+    information_text1 = '''<p class="information_text" style="margin-top: 0em; margin-bottom: 0em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">Creating realistic and high-quality images that do not exist in the real world based on ML algorithms.</span></p>'''
+    st.markdown(information_media_query + information_text1, unsafe_allow_html=True)
 with col6:
     st.image("images/virtual_assistant.png", use_column_width=True)
+    information_text1 = '''<p class="information_text" style="margin-top: 0em; margin-bottom: 0em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">Simulating human-like conversations and performing tasks or providing information in response to user inputs based on natural language processing algorithms.</span></p>'''
+    st.markdown(information_media_query + information_text1, unsafe_allow_html=True)
 
 
 card(
