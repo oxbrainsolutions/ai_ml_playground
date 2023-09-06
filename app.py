@@ -1003,7 +1003,7 @@ footer = """
             padding: 0.8em;  /* Adjust padding for smaller screens */
        }
         .left-column-footer {
-            width: 35%;
+            width: 100%;
             justify-content: justify;
             display: flex;
             font-size: 2.2em;
