@@ -788,7 +788,7 @@ with col2:
   '''
   st.markdown(header_media_query + header_text, unsafe_allow_html=True)
   information_text1 = '''
-    <p class="information_text" style="margin-top: 2em; margin-bottom: 2em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">The AI & ML playground is an interactive educational tool that provides a hands-on experience with AI technology. The purpose of this playground is to offer nontechnical individuals the opportunity to engage with AI technology, experiment with different algorithms and gain a deeper understanding of how AI works.</span></p>
+    <p class="information_text" style="margin-top: 2em; margin-bottom: 2em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">The AI & ML playground is an interactive educational tool that provides a hands-on experience with AI technology, offering nontechnical individuals the opportunity to engage and experiment with different algorithms and gain a deeper understanding of how AI works.</span></p>
   '''
   st.markdown(information_media_query + information_text1, unsafe_allow_html=True)
 
