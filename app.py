@@ -856,7 +856,7 @@ col_styles = """
         </a>
     </div>
     <div class="middle5">        
-        <a href="https://google.com">
+        <a href="https://ai-ml-virtual-assistant-playground.streamlit.app/">
             <img src="data:image/png;base64,{}" class="img-fluid" alt="logo1" width="95%">
         </a>
     </div>
