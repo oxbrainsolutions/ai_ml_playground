@@ -830,7 +830,7 @@ col_styles = """
         width: 0%;
     }}
     .middle1, .middle2, .middle3, .middle4, .middle5 {{
-        width: 20%;
+        width: 100%;
         text-align: center;
     }}
 </style>
