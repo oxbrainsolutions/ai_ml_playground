@@ -811,6 +811,10 @@ col_styles = """
     .middle1, .middle2, .middle3, .middle4, .middle5 {{
         width: 13.33%;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
     }}
     .middle1 a, .middle2 a, .middle3 a, .middle4 a, .middle5 a {{
         display: inline-block;
@@ -832,6 +836,8 @@ col_styles = """
     .middle1, .middle2, .middle3, .middle4, .middle5 {{
         width: 100%;
         text-align: center;
+        align-items: center;
+        justify-content: center;
     }}
 </style>
 <div class="col_styles">
