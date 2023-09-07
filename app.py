@@ -796,7 +796,6 @@ with col2:
     <p class="information_text" style="margin-top: 2em; margin-bottom: 4em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">To begin, simply select from one of the options below.</span></p>
   '''
   st.markdown(information_media_query + information_text2, unsafe_allow_html=True)
-  st.write("hello")
 
 col_styles = """
 <style>
@@ -811,10 +810,6 @@ col_styles = """
     .middle1, .middle2, .middle3, .middle4, .middle5 {{
         width: 13.33%;
         text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
     }}
     .middle1 a, .middle2 a, .middle3 a, .middle4 a, .middle5 a {{
         display: inline-block;
@@ -836,8 +831,6 @@ col_styles = """
     .middle1, .middle2, .middle3, .middle4, .middle5 {{
         width: 100%;
         text-align: center;
-        align-items: center;
-        justify-content: center;
     }}
 </style>
 <div class="col_styles">
