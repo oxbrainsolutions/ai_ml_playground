@@ -796,7 +796,7 @@ with col2:
     <p class="information_text" style="margin-top: 2em; margin-bottom: 4em; text-align: justify;"><span style="color: #FAFAFA; font-family: sans-serif; font-size: 1em; ">To begin, simply select from one of the options below.</span></p>
   '''
   st.markdown(information_media_query + information_text2, unsafe_allow_html=True)
-
+  st.write("hello")
 
 col_styles = """
 <style>
